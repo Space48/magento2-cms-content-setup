@@ -1,0 +1,35 @@
+{
+    "name": "space48/magento2-cms-content-setup",
+    "type": "magento2-module",
+    "description": "Provides tooling for initial CMS content creation by FE developer using install scripts and fixtures",
+    "license": "MIT",
+    "require": {
+        "magento/framework": ">=101"
+    },
+    "require-dev": {
+    },
+    "authors": [
+        {
+            "name": "Stepan Kechedzhi",
+            "email": "stepan.kechedzhi@space48.com"
+        }
+    ],
+    "keywords": [
+        "cms",
+        "install"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Space48\\CmsContentSetup\\": ""
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ]
+}
